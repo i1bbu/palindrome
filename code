@@ -1,0 +1,9 @@
+def palindrome(word,word1):
+    if word == word1[-1:0:-1]:
+        trueorfalse = True
+    else:
+        trueorfalse = False
+    print(trueorfalse)
+word = input("Is this word a palindrome?\n>").strip().lower()
+word1 = " "+ word
+palindrome(word,word1)
